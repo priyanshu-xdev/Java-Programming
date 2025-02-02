@@ -25,8 +25,22 @@ public class SubArrays {
         System.out.println("Minimum Sum = " + min);
     }
 
+    public static void kadanes(int arr[]) {
+        int currsum = 0;
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            currsum += arr[i];
+            max = Math.max(currsum, max);
+            if (currsum < 0) {
+                currsum = 0;
+            }
+        }
+        System.out.println("Maximum using kadanes: " + max);
+    }
+
     public static void main(String[] args) {
         int arr[] = { 7, 2, 3, 4, 5 };
         subArray(arr);
+        kadanes(arr);
     }
 }
