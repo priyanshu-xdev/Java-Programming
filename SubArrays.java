@@ -39,7 +39,7 @@ public class SubArrays {
     }
 
     public static void main(String[] args) {
-        int arr[] = { -5 ,1,2,-3,4 };
+        int arr[] = { -5, 1, 2, -3, 4 };
         subArray(arr);
         kadanes(arr);
     }
