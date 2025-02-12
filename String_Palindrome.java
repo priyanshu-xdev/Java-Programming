@@ -1,6 +1,12 @@
+import java.util.*;
+
 public class String_Palindrome {
     public static void main(String[] args) {
-        String str = "noon";
+
+        Scanner sc = new Scanner(System.in);
+
+        // String str = "noon";
+        String str = sc.next();
         int n = str.length();
         boolean isPrime = true;
         for (int i = 0; i < n / 2; i++) {
@@ -16,6 +22,9 @@ public class String_Palindrome {
 
             System.out.println(str + " " + "is not a Palindrome");
         }
+
+
+        sc.close();
     }
 
 }
