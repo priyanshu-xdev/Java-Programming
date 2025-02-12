@@ -15,6 +15,5 @@ public class Practice_String {
         }
         System.out.println(max);
 
-         
-
-    
+    }
+}
