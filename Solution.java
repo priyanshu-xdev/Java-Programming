@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class Solution {
@@ -22,6 +21,7 @@ public class Solution {
                 System.out.print(result + " ");
             }
             System.out.println();
+            sc.close();
         }
 
     }
