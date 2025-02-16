@@ -3,7 +3,7 @@ public class CountLowercase_String {
         String str = "Appple is tasty";
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
-            if (Character.isLowerCase(str.charAt(i))) {
+            if (Character.isUpperCase(str.charAt(i))) {
                 count++;
             }
         }
