@@ -10,8 +10,8 @@ public class StackInJava {
         s.push(2);
 
         s.pop();
-        
+
         System.out.println(!s.isEmpty());
-        System.out.println(s);
+        System.out.println(s.peek());
     }
 }
