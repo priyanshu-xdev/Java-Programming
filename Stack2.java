@@ -11,5 +11,5 @@ public class Stack2 {
         } else {
             System.out.println("False");
         }
-    }
+    }   
 }
