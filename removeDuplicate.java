@@ -19,6 +19,9 @@ public class removeDuplicate {
                 }
         }
         System.out.print(count);
-        System.out.println(Arrays.toString(arr));
+        System.out.println();
+        for(int i=0;i<count;i++){
+            System.out.print(" "+arr[i]);
+        }
     }
 }
