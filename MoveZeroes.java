@@ -4,18 +4,18 @@ public class MoveZeroes {
     public static void main(String[] args) {
         String str = "1100110101";
         int k = 3;
-        int count = 0;
-        char arr[] = str.toCharArray();
+        // int count = 0;
+        char nums[] = str.toCharArray();
         int m = 1;
-        int n = arr.length;
-        System.out.println(Arrays.toString(arr));
+        int n = nums.length;
+        System.out.println(Arrays.toString(nums));
         for (int i = 0; i <= n - k; i++) {
-            if (arr[i] == '0') {
+            if (nums[i] == '0') {
                 for (int j = i; j < i + k; j++) {
-                    arr[j] = (arr[j] == '0') ? '1' : '0';
+                    nums[j] = (nums[j] == '0') ? '1' : '0';
                 }
-                System.out.println(Arrays.toString(arr) + " = " + m);
-                count++;
+                System.out.println(Arrays.toString(nums) + " = " + m);
+                // count++;
                 m++;
             }
         }
